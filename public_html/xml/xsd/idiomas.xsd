@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="secciones.xsd"/ -->
+  <xs:element name="itemsLista" type="t-itemsLista"/>
+  <xs:complexType name="t-itemsLista">
+    <xs:sequence>
+      <xs:element name="item" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="info" type="xs:anyURI" minOccurs="0"/>
+            <xs:element name="items" type="xs:anyURI" minOccurs="0"/>
+            <xs:element name="categorias" type="xs:anyURI" minOccurs="0"/>
+            <xs:element ref="itemsLista" minOccurs="0"/>
+          </xs:sequence>
+          <!-- xs:attribute ref="xml:id" use="required"/ -->
+          <xs:attribute name="id" type="xs:ID" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

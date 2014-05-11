@@ -1,0 +1,3 @@
+php_value include_path ".:/home/content/e/l/t/eltorode/html/medios:/usr/local/php5/lib/php"
+php_value upload_max_filesize "8M"
+php_value default_mimetype "application/xhtml+xml"

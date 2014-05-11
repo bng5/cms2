@@ -1,0 +1,55 @@
+xml {
+	display:table;
+}
+
+consulta {
+	display:table-caption;
+}
+seccion {
+	font-weight:700;
+	font-size:1.5em;
+	clear:both;
+	margin:1em 0;
+}
+
+texto {
+	font-family:sans-serif;
+}
+
+texto[poromision="true"] {
+	font-weight:700;
+}
+
+itemsEncabezado {
+	display:table-header-group;
+}
+
+itemsEncabezado atributo {
+	font-weight:600;
+	width:150px;
+	overflow:hidden;
+	border:1px solid red;
+}
+atributo, imagen {
+	display:table-cell;
+	width:150px;
+	overflow:hidden;
+}
+itemsLista {
+	display:table-row-group;
+}
+
+item {
+	display:table-row;
+}
+
+uri:hover {
+	text-decoration:none;
+}
+
+item > texto {
+	display:table-cell;
+
+	width:150px;
+	overflow:hidden;
+}

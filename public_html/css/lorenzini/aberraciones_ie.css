@@ -1,0 +1,33 @@
+
+table.fondoSelector {
+	width:120px;
+}
+
+select {
+	width:120px;
+	filter:alpha(opacity=0);
+}
+
+
+#catalogo div {
+	display:inline;
+}
+
+div#carro {
+    position:absolute;
+    /*top: expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );*/
+    /*height: expression(window.innerHeight + 'px');*/
+    /*overflow:scroll;*/
+}
+
+#carro table {
+    width:auto;
+}
+
+#mascara {
+    filter: alpha(opacity=50);
+}
+
+#ampliacion {
+    padding-top:6px;
+}

@@ -1,0 +1,33 @@
+Tipos
+	dato	-	valor atómico
+	obj		-	solo puede contener tipo 'dato'
+	Area	-	contiene cualquier tipo 'no específico'
+	XForm	-	contiene tipo específico 'control'
+
+
+Nodos
+	Texto (dato)
+		{formato:
+			plano
+			html
+			xhtml
+			wiki
+		}
+	Imagen (obj)
+	Archivo (obj)
+	Fecha (dato)
+	Fechahora (dato)
+	Color (dato)
+	Entero (dato)
+	Decimal (dato)
+	Bool (dato)
+	Arreglo (dato)
+	Estructura*
+	Precio (dato)
+	Galeria (obj)
+	XForm (XForm)
+	Area (Area)
+
+
+CMS
+	

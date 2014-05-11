@@ -1,0 +1,46 @@
+<?php
+
+require('../inc/iniciar.php');
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><?php echo SITIO_TITULO." || ".$_SERVER['SERVER_NAME']; ?></title>
+<script type="text/javascript" src="<?php echo PRINCIPALURL; ?>js/swfobject.js"></script>
+<link type="text/css" rel="stylesheet" media="screen" href="<?php echo PRINCIPALURL; ?>css/pagina.css" />
+</head>
+<body>
+<!-- table id="contenedor">
+ <tr>
+  <td id="contenedorcelda" -->
+   <div id="flashcontent3">
+    <div id="flashcontent3_alt">
+     <div id="logo"><?php echo SITIO_TITULO." ".$_SERVER['SERVER_NAME']; ?></div>
+     <p id="requerimiento">Para visualizar este sitio, su nevegador debe contar con JavaScript habilitado.</p>
+    </div>
+    <div id="eltorodepicasso"><a href="http://www.eltorodepicasso.es" target="_blank">www.eltorodepicasso.es</a></div>
+   </div>
+  <!-- /td>
+  <td width="1"><img src="<?php echo PRINCIPALURL; ?>img/trans" id="img_vert" alt="" /></td>
+ </tr>
+ <tr>
+  <td style="height:1px;"><img src="<?php echo PRINCIPALURL; ?>img/trans" id="img_horiz" alt=""/></td>
+  <td></td>
+ </tr>
+ </table -->
+<script type="text/javascript">
+// <![CDATA[
+document.getElementById('requerimiento').innerHTML = 'Para visualizar este sitio debe contar con FlashPlayer. <a href="http://www.adobe.com/go/getflash">Descargar FlashPlayer.<\/a>';
+
+var fo = new SWFObject("./preload.swf", "pelicula", "100%", "100%", "8");
+fo.addParam("scale", "exactfit");
+fo.addParam("menu", "false");
+//fo.addParam("wmode", "transparent");
+fo.write("flashcontent3");
+
+// ]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+#cont_reg {
+	overflow:auto;
+	height:4em;
+	padding:0;
+	background-color:#eee;
+}
+
+#registro {
+	white-space:pre;
+	font:normal 0.8em monospace;
+}
+
+a {
+	cursor:pointer;
+}
+
+#info, #categorias, #items {
+	display:none;
+}
+
+#login_usuario {
+border:none;
+}
+
+#login_usuario * {
+display:none;
+}
+
+#login_usuario legend {
+display:block;
+}
+
+#login_usuario.abierto {
+background-color:#f0f0f0;
+border:1px groove #ccc;
+}
+
+#login_usuario.abierto * {
+display:block;
+}
+
+#login_sucesos {
+	display:none;
+}

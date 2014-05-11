@@ -1,0 +1,44 @@
+
+table {
+	border-collapse:collapse;
+}
+th {
+	border:1px solid #cccccc;
+	white-space:nowrap;
+	background-color:#cccccc;
+	border:1px solid #000000;
+	margin-top:10px;
+}
+tbody td {
+	padding:4px;
+	text-align:right;
+}
+
+tbody.items {
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+tbody.items td {
+	border-left:1px solid #cccccc;
+}
+
+tr.par {
+	background-color:#f3f3f3;
+}
+td.desc {
+  text-align:left;
+}
+tr.fact_total {
+	font-weight:700;
+}
+tbody.totales td.der {
+  border:1px solid #cccccc;
+}
+
+div#confirmacion table {
+margin:0 auto;
+}
+
+div#confirmacion p {
+text-align:center;
+}

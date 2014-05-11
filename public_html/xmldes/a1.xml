@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml xml:lang="es">
+ <item etiqueta="Autos 0km">
+  <area id="gestoria" etiqueta="Gestoría">
+   <dato id="titulo" tipo="texto" etiqueta="Título">Gestoría</dato>
+   <dato id="descripcion" tipo="areadetexto" etiqueta="Descripción">Realización de Tramites y Empadronamientos en Intendencias de Todo el Pais
+Contacto: Virginia Oholeguy Tel. 7099009 Int. 16, Cel. 096 172699</dato>
+  </area>
+  <area id="seguros" etiqueta="Seguros">
+   <dato id="titulo" tipo="texto" etiqueta="Título">Seguros</dato>
+   <dato id="descripcion" tipo="areadetexto" etiqueta="Descripción">Asesoramiento en Costos De Seguros por BSE y Todas Las Compañias Privadas
+Contacto: Virginia Oholeguy Tel. 7099009 Int. 16, Cel. 096 172699</dato>
+  </area>
+ </item>
+</xml>
